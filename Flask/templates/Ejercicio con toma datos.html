@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio con toma de Datos</title>
+</head>
+<body>
+    <h1>Registro en nuestra tienda</h1>
+    <form action="https://s3.amazonaws.com/nextu-content-production/Desarrollador_Web/01_Fundamentos_HTML/Ejercicios/WEB_C01_U2L3_Ejercicio1/WEB_C01_U2L3_Ejercicio1_solucion.html">
+            <p>
+                <label for="name">Nombre del usuario</label>
+                <br>
+                <input type="text" name="Nombre del usuario" placeholder="Ej. luis" autofocus required>
+            </p>   
+            <p>
+                <label for="email"> Emal: </label>
+                <br>
+                <input type="email" name="email" placeholder="Ej. luis@gmail.com" required>
+            </p>
+            <p>
+                <label for="age"> Edad: </label>
+                <br>
+                <input type="number" name="age" placeholder="Ej. 21" required>
+            </p> 
+            <p>
+               <label for="birth date">Fecha de nacimiento</label>
+               <br>
+               <input type="date" name="birth date" required> 
+            </p>
+            <p>
+                <label for="genre"> Genero: </label>
+                <br>
+                <input type="radio" name="genre">
+                    Masculino
+                <br>
+                <input type="radio" name="genre">
+                    Femenino
+            </p>
+            <p>
+                <label for="recommend"> Recomendado por: </label>
+                <br>
+                <!-- <select>
+                    <option value="1">Google</option>
+                    <option value="1">Amigo</option>
+                    <option value="1">Redes sociales</option> -->
+                </select>
+            </p>
+            <p> <label for="comment">Comentario</label>
+                <br>
+                <textarea name="Comentario" id="Comentario" cols="30" rows="5"></textarea>
+            </p>
+            <p>
+                <label for="checkbox">Acepto Terminos y Condiciones</label>
+                <br>
+                <input type="checkbox" name="Acepto" required>
+            </p>
+            <p>
+                <input type="submit" value="Registrar">
+            </p>
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
