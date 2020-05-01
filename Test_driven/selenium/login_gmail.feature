@@ -9,4 +9,4 @@ Then user can access his mails
 
 Examples:
 |username |password |
-|sboudentest16@gmail.com |Asdfghjkl1234567890 |
+|sboudentest16|Asdfghjkl1234567890 |
